@@ -6,7 +6,7 @@ the main site for the API is: "https://Minecraftserverapi.opgamer3000pro.repl.co
 
 
 
-List of requests and outputs:
+List of requests and outputs:<br>
 <b>/stat:- returns the current status of server in "true" or "false"</b>
 
 <b>/setStat?stat=true/false&pass=password123:- sets the current stat</b>
