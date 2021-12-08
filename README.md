@@ -1,4 +1,4 @@
-# Minecraft_server_api
+# Minecraft_server_api [alpha]
 This is a API for my minecraft server!
 
 So if you want to do something with this API then here are some tips:
