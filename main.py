@@ -3,12 +3,14 @@ from threading import Thread
 from replit import db #the db which i will use
 import os
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 
 PASS = os.getenv("PASS")
 
-db["stat"] = "flase"
+db["stat"] = "false"
+current_time = time.time()
 
 api = Flask('')
 
@@ -34,12 +36,28 @@ def setStat():
 			db["stat"] = "true"
 			return "OK"
 		elif stat == "false":
+			global current_time
+			current_time = time.time()
 			db["stat"] = "false"
 			return "OK"
 		else:
 			return "ERROR"
 	else:
 		return "wrong password"
+
+@api.route("/getDowntime")
+def getDowntime():
+	stat = db["stat"]
+	if stat == "false":
+		global current_time
+		now = time.time()
+		total = int(now - current_time)
+		return str(total)
+	elif stat == "true":
+		return "true"
+	else:
+		return "ERROR"
+		
 	
 
 
