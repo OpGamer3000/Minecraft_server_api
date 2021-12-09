@@ -2,13 +2,22 @@
 This is a API for my minecraft server!
 
 So if you want to do something with this API then here are some tips:
-the main site for the API is: "https://Minecraftserverapi.opgamer3000pro.repl.co"
+
+The main site for the API is: "https://Minecraftserverapi.opgamer3000pro.repl.co"
 
 
 
-List of requests and outputs:<br>
-<b>/stat:- returns the current status of server in "true" or "false"</b>
+### List of requests and outputs:
 
-<b>/setStat?stat=true/false&pass=password123:- sets the current stat</b>
+## /stat:
+Returns the current status of server in "true" or "false".
 
-More coming soon!
+## /setStat?stat=true/false&pass=password123:
+Sets the current stat.
+
+## /getDowntime
+Returns how many seconds the server has been down.
+
+<br>
+
+### More coming soon!
