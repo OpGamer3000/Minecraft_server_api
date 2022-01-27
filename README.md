@@ -20,4 +20,4 @@ Returns how many seconds the server has been down.
 
 <br>
 
-### More coming soon!
+### Currently down :(
