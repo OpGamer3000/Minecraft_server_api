@@ -17,7 +17,7 @@ api = Flask('')
 
 @api.route('/')
 def home():
-	return "no"
+	return "yes"
 
 
 @api.route("/stat")
