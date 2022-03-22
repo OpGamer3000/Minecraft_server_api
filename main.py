@@ -9,7 +9,6 @@ load_dotenv()
 
 PASS = os.getenv("PASS")
 
-db["stat"] = "false"
 current_time = time.time()
 
 api = Flask('')
