@@ -1,11 +1,6 @@
 # Minecraft_server_api
 This is a API for my minecraft server!
 
-So if you want to do something with this API then here are some tips:
-
-The main site for the API is: "https://Minecraftserverapi.opgamer3000pro.repl.co"
-
-
 
 ### List of requests and outputs:
 
@@ -20,4 +15,4 @@ Returns how many seconds the server has been down.
 
 <br>
 
-### ayeeeee, its back up!!
+### Nvm idk how to portforward double things using portmap(open vpn)
